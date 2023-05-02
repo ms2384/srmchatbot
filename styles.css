@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+body {
+  background-image: url('bg-img-1.jpg');
+  background-position: bottom;
+  background-size: cover;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  padding: 16px 8px;
+  justify-content: flex-start;
+  background: #8b8b8b;
+}
+
+.header-logo {
+  transform-origin: left;
+  width: 35%;
+  max-width: 240px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title-box h2, p {
+  font-weight: 400;
+  color: white;
+}
+
+.title-box h2 {
+  font-size: xx-large;
+}
+
+#welcome-text {
+  margin-top: 40px;
+  font-weight: 400;
+  text-align: center;
+  font-size: xx-large;
+  color: #071c31;
+}
+
+@media screen and (max-width: 600px) {
+  .title-box h2 {
+    font-size: larger;
+  }
+
+  .title-box p {
+    font-size: small;
+  }
+}
